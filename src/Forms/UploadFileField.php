@@ -6,7 +6,8 @@ use MadeHQ\Cloudinary\Model\FileLink;
 use SilverStripe\AssetAdmin\Controller\AssetAdmin;
 use SilverStripe\AssetAdmin\Forms\UploadField;
 use SilverStripe\Assets\Upload_Validator;
-use SilverStripe\Control\{HTTPRequest, HTTPResponse};
+use SilverStripe\Control\HTTPRequest;
+use SilverStripe\Control\HTTPResponse;
 use SilverStripe\Core\Injector\Injector;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\FileUploadReceiver;
@@ -187,10 +188,10 @@ class UploadFileField extends FormField
      */
     public function setValue($value, $record = null)
     {
-        if(empty($value) && $record) {
+        if (empty($value) && $record) {
             if (($record instanceof DataObject) && $record->hasMethod($this->getName())) {
                 $data = $record->{$this->getName()}();
-                if($data && $data->exists()) {
+                if ($data && $data->exists()) {
                     $fields = $this->getFieldList();
                     foreach ($fields as $field) {
                         $fieldSubName = preg_replace('/^.+\[(\w+)\]$/', '$1', $field->getName());
@@ -224,7 +225,7 @@ class UploadFileField extends FormField
     /**
      * {@inheritdoc}
      */
-    public function setSubmittedValue($value, $data = NULL)
+    public function setSubmittedValue($value, $data = null)
     {
         $fields = $this->getFieldList();
         if (!array_key_exists('File', $value)) {

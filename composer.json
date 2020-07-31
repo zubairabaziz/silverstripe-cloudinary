@@ -1,5 +1,5 @@
 {
-  "name": "mademedia/silverstripe-cloudinary",
+  "name": "trainordigital/silverstripe-cloudinary",
   "type": "silverstripe-vendormodule",
   "description": "Fields & DataObjects to add Cloudinary Images/Files to DataObjects.",
   "homepage": "https://github.com/MadeHQ/silverstripe-cloudinary.git",

@@ -1,16 +1,16 @@
 {
-  "name": "trainordigital/silverstripe-cloudinary",
+  "name": "zubairabaziz/silverstripe-cloudinary",
   "type": "silverstripe-vendormodule",
   "description": "Fields & DataObjects to add Cloudinary Images/Files to DataObjects.",
-  "homepage": "https://github.com/MadeHQ/silverstripe-cloudinary.git",
+  "homepage": "https://github.com/zubairabaziz/silverstripe-cloudinary.git",
   "keywords": ["silverstripe","cloudinary"],
   "license": "BSD-3-Clause",
   "authors": [
     {
-      "name": "Made Media",
+      "name": "Zubair",
       "role": "Developer",
-      "email": "developers@mademedia.co.uk",
-      "homepage": "https://www.example.com"
+      "email": "zabaziz@trainor.com",
+      "homepage": "https://github.com/zubairabaziz/"
     }
   ],
   "require": {

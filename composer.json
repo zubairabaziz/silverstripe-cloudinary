@@ -1,6 +1,6 @@
 {
   "name": "zubairabaziz/silverstripe-cloudinary",
-  "type": "silverstripe-vendormodule",
+  "type": "silverstripe-module",
   "description": "Fields & DataObjects to add Cloudinary Images/Files to DataObjects.",
   "homepage": "https://github.com/zubairabaziz/silverstripe-cloudinary.git",
   "keywords": ["silverstripe","cloudinary"],
